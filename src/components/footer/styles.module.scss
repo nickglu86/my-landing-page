@@ -1,0 +1,26 @@
+@import "../../sass/variables.scss";
+ 
+.footer{
+    display: block;
+    background-color: $secondblue;
+    padding: 50px 0;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    p {
+        margin: 0;
+        color: $white;
+        font-size: 14px;
+        font-family: $poppins;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}

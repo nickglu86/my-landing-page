@@ -1,0 +1,14 @@
+@import "../../sass/variables.scss";
+
+.featured-image{
+    display: block;
+    padding-bottom: 200px;
+
+    img{
+        margin-top: -150px;
+        position: relative;
+        width: 100%;
+        height: 500px;
+        object-fit: contain;
+    }
+}
